@@ -39,5 +39,3 @@ def invert_dict(dic, previous=None):
       return invert_dict(dic.get(key), previous={key: previous})
     else:
       return invert_dict(dic.get(key), previous=key)
-
-assert(invert_dict(input_value) == output_value)
