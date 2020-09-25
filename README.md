@@ -14,6 +14,6 @@ In this directory <br>
 `$ pytest --cov=./`
 
 The result will print out in console and the test coverage is 100%.
-![](./image/Screenshot from 2020-09-25 12-22-48.png)
+![Screenshot](./image/test_result.png)
 
 
